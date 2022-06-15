@@ -4,6 +4,7 @@
  * aux_help_env - Help information for the builtin env
  * Return: no return
  */
+
 void aux_help_env(void)
 {
 	char *help = "env: env [option] [name=value] [command [args]]\n\t";
@@ -17,6 +18,7 @@ void aux_help_env(void)
  * aux_help_setenv - Help information for the builtin setenv
  * Return: no return
  */
+
 void aux_help_setenv(void)
 {
 
